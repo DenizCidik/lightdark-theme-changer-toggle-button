@@ -54,6 +54,10 @@ body.dark {
     transform: translateX(24px);
 }
 
+.checkbox:checked + .label {
+    background-color: #fff;
+}
+
 .fa-moon {
     color: #f1c40f;
 }
